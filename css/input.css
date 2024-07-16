@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  scroll-behavior: auto;
+}
+.chart-container {
+  width: 100%;
+  max-width: 800px; /* Max width of the chart */
+  margin: auto;
+  padding: 20px;
+}
+canvas {
+  width: 100% !important; /* Ensure the canvas is 100% of the container */
+  height: auto !important; /* Maintain aspect ratio */
+}
